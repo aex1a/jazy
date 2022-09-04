@@ -1,0 +1,43 @@
+
+*{
+    transition: all 0.2s ease-in-out;
+}
+
+body{
+    background: lightcoral;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.card{
+    background: #fff;
+    border-radius: 4px;
+    height: 80vh;
+    width: 85vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(pink, white);
+}
+
+img.birthday{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    max-height: 50vh;
+    max-width: 100%;
+    margin: 10px;
+    border-radius: 3px;
+    
+}
+
+.muted {
+    opacity: 0.8;
+}
+
+.space{
+    height: 100px;
+}
